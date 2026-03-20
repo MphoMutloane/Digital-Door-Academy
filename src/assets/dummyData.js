@@ -10,9 +10,9 @@ import HC8 from "../assets/HC8.png";
 
 const courses = [
   {
-    id: 10,
+    id: 2,
     name: "Software Development ",
-    teacher: "John Smith",
+    teacher: "John Doe",
     image: HC2,
     rating: 4.8,
     category: "Development",
@@ -51,9 +51,9 @@ const courses = [
   },
 
   {
-    id: 13,
+    id: 1,
     name: "Data Analysis ",
-    teacher: "Dr. Emily Wilson",
+    teacher: "John Doe",
     image: HC5,
     rating: 4.6,
     category: "Data Science",
