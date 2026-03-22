@@ -7,6 +7,7 @@ import Courses from './pages/Courses'
 import { ArrowUp } from 'lucide-react'
 import CourseDetailPageHome from './pages/CourseDetailPageHome'
 import CourseDetailPage from './pages/CourseDetailPage'
+import MyCoursePage from './pages/MyCoursePage'
 
 // to protect the route
 const ProtectedRoute = ({children}) => {
@@ -63,6 +64,7 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/courses' element={<Courses />} />
+        <Route path='/mycourses' element={<MyCoursePage />} />
         <Route path='/course/:id' element={<ProtectedRoute><CourseDetailPage/></ProtectedRoute>} />
         <Route path='/courses/:id' element={<ProtectedRoute><CourseDetailPageHome/></ProtectedRoute>} />
         
